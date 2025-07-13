@@ -1,0 +1,19 @@
+{
+  "name": "helloworld",
+  "version": "1.0.3",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@zeppos/device-types": "^3.0.0"
+  },
+  "dependencies": {
+    "@silver-zepp/easy-ble": "^1.7.8-e",
+    "@silver-zepp/vis-log": "^1.1.1",
+    "@zeppos/zml": "^0.0.9"
+  }
+}
