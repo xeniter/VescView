@@ -10,7 +10,11 @@ if you would like to test it now scan this code in developer mode of your androi
 
 [Amazfit GTR 4] Vesc View-1.0.0
 
-![QR Code](assets/qr.png)
+![QR Code](qr.png)
+
+## preview
+
+![PREVIEW](preview.png)
 
 ## links
 
