@@ -645,7 +645,7 @@ Page({
       case StateEnum.SCANNING:
         this.updateScanDeviceList();
         break;
-      case StateEnum.CONNECTING:          
+      case StateEnum.CONNECTING:
         break;
       case StateEnum.DASHBOARD:
         this.displayDashboard();
@@ -701,6 +701,9 @@ Page({
             case StateEnum.SCANNING:
               break;
             case StateEnum.CONNECTING:
+              // Zepp App Store requires to go back:
+              // Click on the application interface, and swiping right cannot return to the previous level
+              this.switchState(StateEnum.SCANNING);
               break;
             case StateEnum.DASHBOARD:
               this.switchState(StateEnum.SPEED);
